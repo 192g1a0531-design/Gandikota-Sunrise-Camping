@@ -1,0 +1,39 @@
+body{
+    background-color: #d9dfeb;
+    padding-top: 70px;
+    
+}
+.hero {
+  background-color: #0d6efd;
+  color: white;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.full-img 
+  {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/gandikota.jpg');
+  background-size: contain;   /* 👈 KEY CHANGE */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;   /* fills empty space */
+
+}
